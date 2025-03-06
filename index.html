@@ -1,1 +1,193 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rares' Portfolio</title><script defer="defer" src="/site/static/js/main.f81462f1.js"></script><link href="/site/static/css/main.583a42bb.css" rel="stylesheet"></head><body><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rares' Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/b2ba1193ce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar" class="header">
+    <div class="container">
+      <a href="#home" class="logo">Rares</a>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#languages">Languages</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="menu-toggle" id="menuToggle">
+        <span class="menu-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Hello, I'm Rares</h1>
+      <h2>A Future Full Stack Developer</h2>
+      <p>Student at HoGent studying Applied Computer Science with a passion for creating elegant, responsive, and modern web applications.</p>
+      <div class="hero-buttons">
+        <a href="https://www.linkedin.com/in/rares-eduard-tudor-6885952aa/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/tudor-rares" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hey, I'm Rares Eduard Tudor, a passionate full-stack developer currently studying at HOGENT. I have a strong foundation in web development, specializing in React, Node.js, Next.js, and TypeScript. I love creating efficient, scalable applications, whether it's a personal project or something more complex like a shopfloor application dashboard.</p>
+      <p>My focus is on modern, maintainable code and clean UI/UX, with experience in both front-end and back-end development. I'm always exploring new technologies and refining my skills to stay ahead.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <i class="fab fa-html5 fa-3x"></i>
+          <p>HTML</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-css3-alt fa-3x"></i>
+          <p>CSS</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-js fa-3x"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-react fa-3x"></i>
+          <p>React</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-node-js fa-3x"></i>
+          <p>Node.js</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-java fa-3x"></i>
+          <p>Java</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card" onclick="window.open('https://github.com/HOGENT-frontendweb/frontendweb-2425-RaresEduard-Tudor', '_blank')">
+          <img src="https://via.placeholder.com/600x300?text=Quirky+Spots" alt="Quirky Spots">
+          <h3>Quirky Spots</h3>
+          <p>A map-based web app where users can add, review, and rate locations, featuring a custom map solution and React Three Fiber.</p>
+          <div class="tech-stack">
+            <span>React</span>
+            <span>Three.js</span>
+            <span>Node.js</span>
+          </div>
+        </div>
+        <div class="project-card" onclick="window.open('https://github.com/HoGentProjectenII', '_blank')">
+          <img src="https://via.placeholder.com/600x300?text=Shopfloor+Dashboard" alt="Shopfloor Dashboard">
+          <h3>Shopfloor Dashboard</h3>
+          <p>A real-time data dashboard for shopfloor applications, integrating MariaDB and React.</p>
+          <div class="tech-stack">
+            <span>React</span>
+            <span>MariaDB</span>
+            <span>Node.js</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <h3>Internship in Cesenatico, Italy</h3>
+        <p><strong>Date:</strong> March 2023</p>
+        <p>While my internship may not have directly aligned with my field of informatics, I embraced the chance to explore a different aspect of professional life. Sometimes, unexpected experiences can lead to surprising personal growth and a broader perspective. Regardless of the specific tasks I undertook, I relished the chance to learn, adapt, and collaborate with new colleagues, building valuable skills beyond my primary area of expertise.</p>
+        <p><strong>Duration:</strong> 2 weeks</p>
+      </div>
+      <div class="experience-item">
+        <h3>Part-time Student at McDonald's</h3>
+        <p><strong>Date:</strong> March 2023 - Present</p>
+        <p>Working part-time as a student at McDonald's, gaining valuable experience in customer service, teamwork, and time management.</p>
+        <p><strong>Duration:</strong> <span id="mcdonaldsDuration">Loading...</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Languages Section -->
+  <section id="languages" class="section">
+    <div class="container">
+      <h2>Languages</h2>
+      <div class="languages-grid">
+        <div class="language-card">
+          <img src="https://flagcdn.com/w80/us.png" width="80" alt="US Flag">
+          <h3>English</h3>
+          <p>Fluent</p>
+        </div>
+        <div class="language-card">
+          <img src="https://flagcdn.com/w80/ro.png" width="80" alt="Romanian Flag">
+          <h3>Romanian</h3>
+          <p>Mother Language</p>
+        </div>
+        <div class="language-card">
+          <img src="https://flagcdn.com/w80/nl.png" width="80" alt="Dutch Flag">
+          <h3>Dutch</h3>
+          <p>Fluent</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <form id="contactForm" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="currentYear"></span> Rares. All rights reserved.</p>
+      <p>Made with HTML, CSS & JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
