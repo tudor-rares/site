@@ -1,5 +1,5 @@
 {
-  "homepage": "https://tudor-rares.github.io/your-repo-name",
+  "homepage": "https://tudor-rares.github.io/site",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
