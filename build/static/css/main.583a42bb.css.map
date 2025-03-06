@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.583a42bb.css","mappings":"AAEA,KAIE,qBAAsB,CAHtB,4BAA8B,CAC9B,QAAS,CACT,SAEF","sources":["index.css"],"sourcesContent":["/* Add your CSS styles here */\r\n\r\nbody {\r\n  font-family: Arial, sans-serif;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\n/* Add more styles as needed */"],"names":[],"sourceRoot":""}
