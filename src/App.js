@@ -164,7 +164,7 @@ function App() {
           </div>
           <div className="experience-item">
             <h3>Part-time Student at McDonald's</h3>
-            <p><strong>Date:</strong> March 2023 - Present</p>
+            <p><strong>Date:</strong> November 2023 - Present</p>
             <p>Working part-time as a student at McDonald's, gaining valuable experience in customer service, teamwork, and time management.</p>
             <p><strong>Duration:</strong> {calculateDuration('2023-11-01')}</p>
           </div>
